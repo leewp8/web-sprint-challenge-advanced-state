@@ -25,7 +25,7 @@ function Wheel(props) {
 }
 
 const mapStateToProps = state => {
-  
+  // console.log(state)
   return {
     wheel: state.wheel
   }
