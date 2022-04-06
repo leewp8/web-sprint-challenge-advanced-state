@@ -15,14 +15,6 @@ const handleSubmit = evt => {
   props.postAnswer({quiz_id: quiz.quiz_id, answer_id: selectedAnswer.answer_id})
 }
 
-console.log('selected answer', selectedAnswer?.answer_id)
-// const disabled = () => {
-//   if(selectedAnswer?.answer_id === undefined) {
-//     return false
-//   } else {
-//     return true
-//   }
-// }
 
   return (
     <div id="wrapper">
